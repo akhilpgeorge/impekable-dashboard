@@ -1,0 +1,51 @@
+@import "../../styles/vars.scss";
+
+.sidebar_item {
+
+    &:hover {
+
+        .sidebar_item-name,
+        .svg-inline--fa {
+            opacity: .6;
+        }
+    }
+}
+
+.sidebar_item_active {
+    background-color: $sidebarActiveBg;
+
+    .sidebar_link {
+        position: relative;
+
+        &::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            display: block;
+            width: 5px;
+            background-color: $sidebarStripeColor;
+        }
+    }
+}
+
+.sidebar_link {
+    display: flex;
+    align-items: center;
+    padding: 17px 3.846% 17px 9.615%;
+    color: $iconColor;
+
+    .svg-inline--fa {
+        width: 20px;
+        transition: .2s;
+    }
+}
+
+.sidebar_item-name {
+    margin-left: 15px;
+    font-size: 15px;
+    line-height: 19px;
+    color: $sidebarTextColor;
+    transition: .2s;
+}

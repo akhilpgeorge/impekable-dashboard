@@ -5,16 +5,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import './menu-item.styles.scss';
 
 class MenuItem extends React.Component {
-    constructor() {
-        super();
-    }
-
     render() {
         const { id, name, activeItem, icon } = this.props;
         let myClassName = 'sidebar_item';
-        console.log("activeItem",activeItem);
-        console.log("name",name);
-        console.log("check", activeItem === name);
         if (activeItem === name) {
             myClassName+= ' sidebar_item_active';
         }

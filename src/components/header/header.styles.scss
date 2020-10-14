@@ -1,0 +1,18 @@
+@import '../../styles/vars.scss';
+
+.header-wrapper {
+    background-color: $sidebarBg;
+    width: calc(100% - 260px);
+    float: right;
+    overflow-y: auto;
+    .header {
+        display: flex;
+        justify-content: space-between;
+        border-top-left-radius: 25px;
+        padding: 17px 1.492%;
+        height: 70px;
+        align-items: center;
+        background-color: $sidebarTextColor;
+        box-shadow: 0px 2px 6px $shadowColor;
+    }
+}

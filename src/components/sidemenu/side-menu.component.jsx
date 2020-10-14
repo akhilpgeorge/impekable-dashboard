@@ -27,10 +27,6 @@ const listItems = [
 ]
 
 class SideMenu extends React.Component {
-    constructor(){
-        super();
-    }
-
     
     render(){
 

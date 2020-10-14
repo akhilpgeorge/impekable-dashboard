@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 
 import SideMenu from './components/sidemenu/side-menu.component';
+import Header from './components/header/header.component';
 
 class App extends React.Component {
   constructor(){
@@ -15,6 +16,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <SideMenu activeItem={this.state.activeItem}/>
+        <Header></Header>
       </div>
     );
   }

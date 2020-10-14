@@ -1,0 +1,46 @@
+@import "../../styles/vars.scss";
+@import "../../styles/mixins.scss";
+
+.header-search-label {
+    display: flex;
+    align-items: center;
+}
+
+.header-search-pic {
+    width: 16px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.header-input {
+    width: 210px;
+    padding: 5px;
+    border: none;
+    outline: none;
+    opacity: 0.6;
+    @include placeholder(12px, 20px, normal, $placeholderColor);
+}
+.header-search {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.stripe{
+    width: 23px;
+    height: 16px;
+    display:inline-block ;
+    cursor: pointer;
+}
+
+span {
+    &.header-search-img {
+        height: 20px;
+        margin-right: 35px;
+        background: url('../../assets/images/icons.png') 260px 21px;
+    }
+    &.stripe.stripe-collapse {
+        height: 20px;
+        margin-right: 35px;
+        background: url('../../assets/images/icons.png') 30px 0px;
+    }
+}

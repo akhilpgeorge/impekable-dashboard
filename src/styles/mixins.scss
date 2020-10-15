@@ -34,9 +34,3 @@
         @content;
     }
 }
-
-@mixin resetCalendarControls($color: transparent, $bg: transparent, $border: transparent) {
-    color: $color;
-    background-color: $bg;
-    border-color: $border;
-}

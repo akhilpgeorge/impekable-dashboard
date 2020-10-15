@@ -40,6 +40,11 @@
         width: 20px;
         transition: .2s;
     }
+
+    &:hover {
+        color: $iconColor;
+        text-decoration: none;
+    }
 }
 
 .sidebar_item-name {

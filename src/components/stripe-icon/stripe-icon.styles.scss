@@ -1,0 +1,27 @@
+.stripe{
+    margin: auto;
+    
+    &.insta {
+        height: 20px;
+        // margin-right: 35px;
+        background: url('../../assets/images/icons.png') 225px -1px;
+    }
+
+    &.twitter {
+        height: 20px;
+        // margin-right: 35px;
+        background: url('../../assets/images/icons.png') 190px -1px;
+    }
+
+    &.facebook {
+        height: 20px;
+        // margin-right: 35px;
+        background: url('../../assets/images/icons.png') 150px -1px;
+    }
+
+    &.message {
+        height: 20px;
+        // margin-right: 35px;
+        background: url('../../assets/images/icons.png') 114px -1px;
+    }
+}

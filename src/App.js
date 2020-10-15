@@ -1,9 +1,9 @@
 import React from 'react';
-import './App.css';
 
 import SideMenu from './components/sidemenu/side-menu.component';
-import Header from './components/header/header.component';
+import MainContainerWrapper from './components/main-container-wrapper/main-container-wrapper.component';
 
+import './App.scss';
 class App extends React.Component {
   constructor(){
     super();
@@ -16,7 +16,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <SideMenu activeItem={this.state.activeItem}/>
-        <Header></Header>
+        <MainContainerWrapper />
       </div>
     );
   }

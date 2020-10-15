@@ -2,9 +2,11 @@
 
 .header-wrapper {
     background-color: $sidebarBg;
-    width: calc(100% - 260px);
-    float: right;
     overflow-y: auto;
+    margin-left: 260px;
+    position: fixed;
+    width: calc(100% - 260px);
+    z-index: 1;
     .header {
         display: flex;
         justify-content: space-between;

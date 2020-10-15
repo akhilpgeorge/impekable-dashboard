@@ -1,0 +1,40 @@
+@import '../../styles/vars.scss';
+
+.main-container{
+    min-height: 100%;
+    margin-left: 260px;
+    padding: 0px 40px;
+    background: $mainBg;
+}
+.container-pane {
+    // margin-top: 70px;
+}
+
+h4.first-heading {
+    display: flex;
+    justify-content: space-between;
+    padding: 26px 15px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.add-fund-btn{
+    background: #6763E3 !important;
+    color: #fff;
+}
+
+.stripe{
+    width: 23px;
+    height: 16px;
+    display:inline-block ;
+    cursor: pointer;
+}
+
+span {
+    &.plus-button {
+        background: url('../../assets/images/icons.png') 70px 2px;
+        height: 20px;
+        margin-left: 5px;
+        // padding: 5px 5px;
+    }
+}

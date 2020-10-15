@@ -1,5 +1,7 @@
 import React from 'react';
 
+import avatar from '../../assets/images/avatar.png';
+
 import './header-profile.styles.scss';
 
 class HeaderProfile extends React.Component {
@@ -14,7 +16,7 @@ class HeaderProfile extends React.Component {
                     </div>
 
                     <div className="user-pic">
-                        <img src="images/avatar.png" alt="avatar" className="user-pic-img"/>
+                        <img src={avatar} alt="avatar" className="user-pic-img"/>
                     </div>
                 </div>
             </div>

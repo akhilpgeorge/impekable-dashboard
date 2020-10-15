@@ -1,0 +1,15 @@
+h5 {
+    &.heading {
+      color: #a7a7a7;
+    }
+  }
+
+  span {
+    &.stripe {
+      &.point-stripe{
+        float: right;
+        background: url('../../../assets/images/icons.png') 80px -42px;
+        width: 40px;
+      }
+    }
+  }

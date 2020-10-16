@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Col, Dropdown } from 'react-bootstrap';
+import { Col } from 'react-bootstrap';
 
 import { Line, Doughnut } from 'react-chartjs-2';
 
@@ -125,13 +125,21 @@ export default class StatisticsDahboard extends React.Component {
                 },
                 options: {
                     responsive: true,
-                    legand: {
+                    legend: {
                         position: 'bottom',
-                        align: 'start',
+                        align: 'center',
                         labels: {
                             fontSize: 13,
                             bowWidth: 12,
                             usePointStyle: true
+                        }
+                    },
+                    scales: {
+
+                    },
+                    elements: {
+                        center: {
+                            text: '230,0900 Sales'
                         }
                     }
                 }
@@ -147,17 +155,6 @@ export default class StatisticsDahboard extends React.Component {
                 <Col xl={6} lg={12} md={12}>
                     <div className="card chart-card">
                         <h6 className="p-3">Statistics</h6>
-                        <Dropdown>
-                            <Dropdown.Toggle variant='Secondary' className="statistics-dropdown">
-                                Last 6 months
-                            </Dropdown.Toggle>
-
-                            <Dropdown.Menu>
-                                <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-                                <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-                                <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
-                            </Dropdown.Menu>
-                        </Dropdown>
                         <Line {...this.state.lineChart} width={318} height={350}
                             ref={this.lineChartReference} />
                     </div>

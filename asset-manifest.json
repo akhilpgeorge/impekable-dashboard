@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/impekable-dashboard/static/css/main.90a00745.chunk.css",
+    "main.js": "/impekable-dashboard/static/js/main.cead1b6c.chunk.js",
+    "main.js.map": "/impekable-dashboard/static/js/main.cead1b6c.chunk.js.map",
+    "runtime-main.js": "/impekable-dashboard/static/js/runtime-main.a3d9676f.js",
+    "runtime-main.js.map": "/impekable-dashboard/static/js/runtime-main.a3d9676f.js.map",
+    "static/js/2.56bbdfc0.chunk.js": "/impekable-dashboard/static/js/2.56bbdfc0.chunk.js",
+    "static/js/2.56bbdfc0.chunk.js.map": "/impekable-dashboard/static/js/2.56bbdfc0.chunk.js.map",
+    "index.html": "/impekable-dashboard/index.html",
+    "precache-manifest.9075cca07800c4a1cc405057ff59ef9d.js": "/impekable-dashboard/precache-manifest.9075cca07800c4a1cc405057ff59ef9d.js",
+    "service-worker.js": "/impekable-dashboard/service-worker.js",
+    "static/css/main.90a00745.chunk.css.map": "/impekable-dashboard/static/css/main.90a00745.chunk.css.map",
+    "static/js/2.56bbdfc0.chunk.js.LICENSE.txt": "/impekable-dashboard/static/js/2.56bbdfc0.chunk.js.LICENSE.txt",
+    "static/media/JanaNavakova.jpg": "/impekable-dashboard/static/media/JanaNavakova.3dbb9646.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a3d9676f.js",
+    "static/js/2.56bbdfc0.chunk.js",
+    "static/css/main.90a00745.chunk.css",
+    "static/js/main.cead1b6c.chunk.js"
+  ]
+}

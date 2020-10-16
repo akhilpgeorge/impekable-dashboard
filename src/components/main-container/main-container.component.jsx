@@ -1,7 +1,7 @@
 import React from 'react';
 
 import InsightDashboard from '../insights-dashboard/insights-dashboard.component';
-import SideContainer from '../side-container/side-container.component';
+import Referrer from '../main-container/referrer/referrer.component';
 
 import Col from 'react-bootstrap/Col';
 
@@ -13,6 +13,7 @@ class MainContainer extends React.Component {
             <>
             <Col xl={8} lg={6} md={6}>
                 <InsightDashboard />
+                <Referrer />
             </Col>
             </>
         )
